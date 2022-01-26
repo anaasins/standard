@@ -25,4 +25,14 @@ class DefaultController extends Controller
         // replace this example code with whatever you need
         return $this->render('frontal/index.html.twig');
     }
+
+    /**
+     * login_page
+     *
+     */
+    public function loginAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('frontal/login.html.twig');
+    }
 }
