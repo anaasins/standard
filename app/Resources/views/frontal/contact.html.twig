@@ -20,52 +20,45 @@ Pagina de contacto
                       <!-- * * * * * * * * * * * * * * *-->
                       <!-- * * SB Forms Contact Form * *-->
                       <!-- * * * * * * * * * * * * * * *-->
-                      <!-- This form is pre-integrated with SB Forms.-->
-                      <!-- To make this form functional, sign up at-->
-                      <!-- https://startbootstrap.com/solution/contact-forms-->
-                      <!-- to get an API token!-->
+
                       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                           <!-- Name input-->
                           <div class="form-floating mb-3">
-                              <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                              <input class="form-control" id="name" type="text" placeholder="Nombre" data-sb-validations="required" />
                               <label for="name">Nombre</label>
                               <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, diganos su nombre</div>
                           </div>
                           <!-- Email address input-->
                           <div class="form-floating mb-3">
-                              <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                              <label for="email">Correo electronico</label>
+                              <input class="form-control" id="email" type="email" placeholder="name@ejemplo.com" data-sb-validations="required,email" />
+                              <label for="email">Correo electrónico</label>
                               <div class="invalid-feedback" data-sb-feedback="email:required">Necesitamos saber su correo.</div>
                               <div class="invalid-feedback" data-sb-feedback="email:email">El correo no es valido.</div>
                           </div>
                           <!-- Phone number input-->
                           <div class="form-floating mb-3">
-                              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                              <label for="phone">Número de telefono</label>
-                              <div class="invalid-feedback" data-sb-feedback="phone:required">Necesitamos saber su telefono.</div>
+                              <input class="form-control" id="phone" type="tel" placeholder="666 666 666" data-sb-validations="required" />
+                              <label for="phone">Número de teléfono</label>
+                              <div class="invalid-feedback" data-sb-feedback="phone:required">Necesitamos saber su teléfono.</div>
                           </div>
                           <!-- Message input-->
                           <div class="form-floating mb-3">
-                              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                              <textarea class="form-control" id="message" type="text" placeholder="Escriba su mensaje..." style="height: 10rem" data-sb-validations="required"></textarea>
                               <label for="message">Mensaje</label>
                               <div class="invalid-feedback" data-sb-feedback="message:required">Por favor, escriba un mensaje.</div>
                           </div>
-                          <!-- Submit success message-->
-                          <!---->
-                          <!-- This is what your users will see when the form-->
-                          <!-- has successfully submitted-->
+                          <!-- REVISAR ESTO-->
+
                           <div class="d-none" id="submitSuccessMessage">
                               <div class="text-center mb-3">
                                   <div class="fw-bolder">Gracias por contactar con nosotros!</div>
-                                  To activate this form, sign up at
+                                <!--  To activate this form, sign up a
                                   <br />
-                                  <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                  <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>-->
                               </div>
                           </div>
-                          <!-- Submit error message-->
-                          <!---->
-                          <!-- This is what your users will see when there is-->
-                          <!-- an error submitting the form-->
+                          <!-- REVISAR ESTO-->
+
                           <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Algo salio mal, intentelo de nuevo más tarde.</div></div>
                           <!-- Submit Button-->
                           <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button></div>
