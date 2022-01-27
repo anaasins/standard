@@ -23,8 +23,8 @@
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                           <li class="nav-item"><a class="nav-link" href="{{ path('home_page') }}">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="{{ path('login_page') }}">Login</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                          <li class="nav-item"><a class="nav-link" href="{{ path('contact_page') }}">Contacto</a></li>
+                        <!--  <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
                           <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
@@ -38,7 +38,7 @@
                                   <li><a class="dropdown-item" href="#">Portfolio Overview</a></li>
                                   <li><a class="dropdown-item" href="#">Portfolio Item</a></li>
                               </ul>
-                          </li>
+                          </li>-->
                       </ul>
                   </div>
               </div>
@@ -53,13 +53,13 @@
       <footer class="bg-dark py-4 mt-auto">
           <div class="container px-5">
               <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                  <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
+                  <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
                   <div class="col-auto">
-                      <a class="link-light small" href="#!">Privacy</a>
+                    <!--  <a class="link-light small" href="#!">Privacy</a>
                       <span class="text-white mx-1">&middot;</span>
                       <a class="link-light small" href="#!">Terms</a>
-                      <span class="text-white mx-1">&middot;</span>
-                      <a class="link-light small" href="#!">Contact</a>
+                      <span class="text-white mx-1">&middot;</span>-->
+                      <a class="link-light small" href="{{ path('contact_page') }}">Contacto</a>
                   </div>
               </div>
           </div>
