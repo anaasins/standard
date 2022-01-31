@@ -13,3 +13,7 @@ login_page:
 contact_page:
     path: /contact
     defaults: { _controller: AppBundle:Default:contact }
+
+games_page:
+    path: /games
+    defaults: { _controller: AppBundle:Default:games }

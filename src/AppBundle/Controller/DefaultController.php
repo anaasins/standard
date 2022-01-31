@@ -32,4 +32,12 @@ class DefaultController extends Controller
     {
         return $this->render('frontal/contact.html.twig');
     }
+
+    /**
+     * games_page
+     */
+    public function gamesAction(Request $request)
+    {
+        return $this->render('frontal/entrenamientos.html.twig');
+    }
 }
